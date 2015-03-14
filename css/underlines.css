@@ -18,9 +18,15 @@ header {
 }
 
 footer a {
-    color: #85144b;
+    padding: 0;
+    transition: color .2s ease;
+    color:white;
     text-decoration: none;
-    background-image: linear-gradient( to top, rgba(0,0,0,0) 2%, #85144b 2%, #85144b 5%, rgba(0,0,0,0) 5%);
+    background-image: linear-gradient( to top, rgba(0,0,0,0) 2%, white 2%, white 6%, rgba(0,0,0,0) 6%);
+}
+
+footer a:hover {
+    color: #111;
 }
 
 .wrapper {
