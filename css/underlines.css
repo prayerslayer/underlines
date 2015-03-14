@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: #FF4136;
+    color: white;
+}
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #111;
+}
+
+header {
+    border-bottom: 5px solid #ff4136;
+}
+
+footer a {
+    color: #85144b;
+    text-decoration: none;
+    background-image: linear-gradient( to top, rgba(0,0,0,0) 2%, #85144b 2%, #85144b 5%, rgba(0,0,0,0) 5%);
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.configuration {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.configuration label {
+    width: auto !important;
+    margin-top: 21px !important;
+  margin-bottom: 21px !important;
+  font-size: 19px !important;
+  line-height: 21px !important;
+}
+
+[class*="pure-u"] {
+    padding: 2em;
+}
+
+.test-drive {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.pure-u-1-2:last-child {
+    padding-left: .5em;
+}
+
+.result {
+    font-family: monospace;
+    font-size: 19px;
+    line-height: 21px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    padding: 21px;
+    border-radius: 5px;
+}
+
+.headline {
+    font-size: 44px;
+    line-height: 63px;
+    padding: 21px 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* gridlover styles */
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.test-drive h1 {
+  font-size: 44px;
+  line-height: 63px;
+  margin-top: 42px;
+  margin-bottom: 21px;
+}
+.test-drive h2 {
+  font-size: 33px;
+  line-height: 42px;
+  margin-top: 42px;
+  margin-bottom: 21px;
+}
+.test-drive h3 {
+  font-size: 25px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.test-drive h4 {
+  font-size: 19px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.test-drive p, ul, ol, pre, table, blockquote {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+/* Sanitation */
+.test-drive hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+.test-drive ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.test-drive b, strong, em, small, code {
+  line-height: 1;
+}
+.test-drive sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+.test-drive sub {
+  top: 0.4em;
+}
